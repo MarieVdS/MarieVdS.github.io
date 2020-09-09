@@ -1,4 +1,4 @@
-I am an astrochemist with a particular interest in the molecules around evolved stars.
+I am an astrochemist with a particular interest in molecules and dust around evolved stars.
 
 ## Current position
 Postdoctoral Fellow of the Fund for Scientific Research (FWO) at the Institute of Astronomy, KU Leuven, Belgium
