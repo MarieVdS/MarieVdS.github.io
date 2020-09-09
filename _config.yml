@@ -6,4 +6,4 @@ twitter_username: marievdsande # DO NOT include the @ character, or else the bui
 github_username:  MarieVdS # DO NOT include the @ character, or else the build will fail!
 
 show_excerpts: true # set to false to remove excerpts on the homepage
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.20.2
