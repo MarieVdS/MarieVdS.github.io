@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+I am an astrochemist with a particular interest in the molecules around evolved stars.
 
-You can use the [editor on GitHub](https://github.com/MarieVdS/MarieVdS.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Current position
+Postdoctoral Fellow of the Fund for Scientific Research (FWO) at the Institute of Astronomy, KU Leuven, Belgium
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MarieVdS/MarieVdS.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Publications
+You can find a list of publications [here](https://ui.adsabs.harvard.edu/search/filter_database_fq_database=AND&filter_database_fq_database=database%3A%22astronomy%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3A%22astronomy%22)&q=%20author%3A%22van%20de%20sande%2C%20m%22&sort=date%20desc%2C%20bibcode%20desc&p_=0).
