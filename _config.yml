@@ -8,4 +8,4 @@ github_username:  MarieVdS # DO NOT include the @ character, or else the build w
 show_excerpts: true # set to false to remove excerpts on the homepage
 
 
-theme: jekyll-theme-tactile
+theme: jekyll-theme-minimal
