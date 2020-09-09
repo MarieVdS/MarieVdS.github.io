@@ -1,1 +1,9 @@
+title: Marie Van de Sande
+author: Marie Van de Sande
+email: marie.vandesande@kuleuven.be
+# social links
+twitter_username: marievdsande # DO NOT include the @ character, or else the build will fail!
+github_username:  MarieVdS # DO NOT include the @ character, or else the build will fail!
+
+show_excerpts: true # set to false to remove excerpts on the homepage
 theme: jekyll-theme-minimal
