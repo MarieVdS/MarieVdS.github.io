@@ -1,5 +1,5 @@
 I am an astrochemist with a particular interest in molecules and dust around evolved stars.
-My research is focussed on developing chemical models for AGB outflows, in an attempt to help explain the rich complexity of observations.
+My research is focussed on developing chemical models for AGB outflows, in order to help explain the rich complexity of observations.
 
 ## Current position
 Postdoctoral Fellow of the Fund for Scientific Research (FWO) at the Institute of Astronomy, KU Leuven, Belgium
