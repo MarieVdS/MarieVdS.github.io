@@ -10,4 +10,4 @@ You can find a list of publications [here](https://ui.adsabs.harvard.edu/search/
 ## Outreach
 I enjoy talking about my research, and astronomy and astrochemistry in general, to a variety of audiences. 
 This includes talks at secondary schools and public observatories, as well as organised events such as Pint of Science.
-Some examples of me in action can be found [here](https://www.facebook.com/156577567699904/videos/1199043520511555), [here](https://youtu.be/cbAYXZPP3Jo), and [here](https://youtu.be/C1miBow-mEk). 
+Some examples can be found [here](https://www.facebook.com/156577567699904/videos/1199043520511555), [here](https://youtu.be/cbAYXZPP3Jo), and [here](https://youtu.be/C1miBow-mEk). 
