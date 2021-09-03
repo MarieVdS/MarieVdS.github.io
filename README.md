@@ -4,7 +4,7 @@ My research is focussed on developing chemical models for AGB outflows, in order
 ## Current position
 Marie Skłodowska-Curie Individual Fellow at the School of Physics and Astromomy, University of Leeds, UK
 
-# Previous position
+### Previous position
 Postdoctoral Fellow of the Fund for Scientific Research (FWO) at the Institute of Astronomy, KU Leuven, Belgium
 
 ## Publications
