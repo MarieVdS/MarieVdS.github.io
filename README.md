@@ -1,5 +1,7 @@
 I am an astrochemist with a particular interest in molecules and dust around evolved stars.
-My research is focussed on developing chemical models for AGB outflows, in order to help explain the rich complexity of observations.
+My research is focussed on developing chemical models for AGB outflows. 
+These aim to explain the rich complexity in current observations and help guide future ones.
+Their goal is to unravel link between chemistry and dynamics throughout the outflow and to quantify the output of AGB stars into the interstellar medium.
 
 ## Current position
 Marie Skłodowska-Curie Individual Fellow at the School of Physics and Astronomy, University of Leeds, UK
