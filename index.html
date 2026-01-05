@@ -14,21 +14,22 @@
 	<body class="is-preload">
 
 		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#about">About</a></li>
-					<li><a href="#research">Research</a></li>
-					<li><a href="#Publications">Publications</a></li>
-					<li><a href="#CV">CV</a></li>
-					<li><a href="#Outreach">Outreach</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+		<nav id="nav">
+			<ul class="container">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="research.html">Research</a></li>
+				<!-- <li><a href="publications.html">Publications</a></li> -->
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="outreach.html">Outreach</a></li>
+				<!-- <li><a href="#contact" class="scrolly">Contact</a></li> -->
+			</ul>
+		</nav>
+
 
 		<!-- Home -->
-			<article id="about" class="wrapper style1">
+			<article id="home" class="wrapper style1">
 				<div class="container">
-					<div class="row">
+					<div class="row aln-middle">
 						<div class="col-4 col-5-large col-12-medium">
 							<span class="image fit"><img src="images/marievandesande_circle.jpg" alt="" /></span>
 						</div>
@@ -36,7 +37,7 @@
 							<header>
 								<!-- <h1>Hi. I'm <strong>Jane Doe</strong>.</h1> -->
 								<h1> Dr Marie Van de Sande </h1>
-								<p> Oort Fellow at Leiden Observatory </p>
+								<h2> Oort Fellow at Leiden Observatory </h2>
 							</header>
 							<p> I'm an astrochemist specialised in the chemistry around evolved stars.
 							In particular, I develop chemical kinetics models of the outflows of Asymptotic Giant Branch stars and use these to interpret observations of these complex environments. 
@@ -46,149 +47,33 @@
 	
 					</div>
 				</div>
-			</article>
 
-		<!-- Research -->
-			<article id="research" class="wrapper style2">
-				<div class="container">
-					<header>
-						<h2>Research</h2>
-					</header>
-						<div class="row">
-						<div class="col-6-large">
-							<article class="box style2">
-								<h3><a href="#">Chemical kinetics models</a></h3>
-								<p> 
-									<!-- My research focusses on developing chemical kinetics models of AGB outflows, interpreting them and applying them to observations.  -->
-									Spherically symmetric AGB outflows appear to be the exception rather than the rule. 
-									Large-scale structures, such as spirals and disks, and small-scale clumpiness is ubiquitously observed. 
-									For a chemical model of a circumstellar environment (CSE) to be able to interpret observations, these complexities have to be included.
-								</p>
-								<p> The <strong> Rate22 CSE model </strong> is available <a href="https://github.com/MarieVdS/rate22_cse_code" target="_blank">here</a>, part of the latest release of the <a href="https://umistdatabase.net/">UMIST Database for Astrochemistry</a>.
-									The model includes the effects of a close-by stellar companion and a clumpy outflow.
-								</p>
-								<p> My other models also include a <a href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.2023V/abstract" target="_blank">comprehensive dust-gas chemistry</a>, including the formation of ices and <a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.501..491V/abstract" target="_blank">refractory organic material</a> on the dust's surface.
-									The <a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.532..734V/abstract" target="_blank">disk</a> around L2 Puppis has its own chemical model.
-									While these aren't publicly available <em>yet</em>, I'm happy to chat!
-								<p>	
-									These 1D models can only go so far.
-									Hydrodynamical models are necessary to explain the wide variety of complexities.
-									Coupling chemistry to these models is computationally challenging, but emulating can help!
-									Silke Maes developed the first chemical emulator, <a href="https://ui.adsabs.harvard.edu/abs/2024ApJ...969...79M/abstract" target="_blank">MACE</a>, available <a href="https://ui.adsabs.harvard.edu/abs/2024ApJ...969...79M/abstract" target="_blank"><a href="https://github.com/silkemaes/MACE" target="_blank">here</a>.
-									More coming up... 
-								</p>
-
-							</article>
-						</div>
-						<div class="col-6-large">
-							<article class="box style2">
-								<h3><a href="#">Observations</a></h3>
-								<p> Chemical models are essential to help interpret the complex dynamics within AGB outflows. 
-									For example, chemistry can be used to infer the presence of a stellar companion (like around <a href="https://ui.adsabs.harvard.edu/abs/2022ApJ...941...90S/abstract" target="_blank">IRC+10216</a>) and even to infer the orbital parameters (like around <a href="https://ui.adsabs.harvard.edu/abs/2024NatAs...8..308D/abstract">W Aql</a>).
-								</p>
-								<p>	
-									Dust-gas chemistry can shed a light on the dust grain-size distribution and can help explain depletion of refractory molecules.
-									There are plenty of chemical tracers for a variety of physics and chemistry, have a look <a href="https://ui.adsabs.harvard.edu/abs/2023FaDi..245..586V/abstract" target="_blank">here</a> or feel free to send me an email if you're designing a new observing campaign.
-								</p>
-								<p>	
-									ALMA observations of the disk around L2 Pup are on their way!
-								</p>
-			
-							</article>
-						</div>
+				<!-- <div class="row">
+					<div class="col-12">
+						<hr /> <p>
+							This is where your text that spans the entire page goes. You can describe your 
+							broader research goals, mention recent news, or provide a brief summary of your 
+							academic journey. Because this is a "col-12", it will take up the full width 
+							of the centered lane we created.
+						</p>
 					</div>
+				</div> -->
 
-					<!-- <footer>
-						<p>You can find all of my publications on NASA-ADS</p>
-						<a href="https://ui.adsabs.harvard.edu/user/libraries/s3M_Jvj1Sc-f31ViKO0-QQ" class="button large scrolly">All publications on NASA-ADS</a> 
-					</footer> -->
-				</div>
 			</article>
 
-		<!-- Publications -->
-			<article id="Publications" class="wrapper style2">
+			<footer id="footer" class="wrapper style4">
 				<div class="container">
-					<header>
-						<h2>Publications</h2>
-						<p>You can find all of my publications on NASA-ADS</p>
-					</header>
-					<p>
-						<a href="https://ui.adsabs.harvard.edu/user/libraries/s3M_Jvj1Sc-f31ViKO0-QQ" target="_blank" class="button large scrolly">All publications</a> 
-						<a href="https://ui.adsabs.harvard.edu/user/libraries/6tjZNr0wQBK1NApgK74MNw" target="_blank" class="button large scrolly">First-author publications</a> 
-					</p>
-					<footer>
-						You can also find them on <a href="https://scholar.google.com/citations?user=kx8lJnAAAAAJ&hl=en&inst=7204875633217014871">Google Scholar</a> or on <a href="https://orcid.org/0000-0001-9298-6265">ORCID</a>. 
-					</footer>
+					<p>Contact: mvdsande [at] strw.leidenuniv.nl </p>
+					<p>Design: <a href="http://html5up.net">HTML5 UP </p>
+					
 				</div>
-			</article>
-
-		<!-- CV -->
-		<article id="CV" class="wrapper style2">
-			<div class="container">
-				<header>
-					<h2>CV</h2>
-				</header>
-				<p>
-					<strong> Employment </strong> <br> 
-					2023 - now: Oort Fellow at Leiden Observatory, the Netherlands <br>
-					2021 - 2023: Marie Skłodowska-Curie Individual Fellow at the University of Leeds, UK <br>
-					2018 - 2021: Postdoctoral Fellow of the Research Foundation Flanders (FWO), KU Leuven, Belgium
-				</p>
-				<p>
-					<strong> Education <br></strong> 
-					2014 - 2018: PhD in Astronomy and Astrophysics, KU Leuven, Belgium
-				</p>				
-				<p>
-					<strong> Invited talks <br></strong> 
-					Jul 2024: Invited speaker at Scientific Event “Chemical complexity of the molecular universe” at COSPAR 2024, Busan, South Korea <br>
-					Jul 2023: Keynote speaker at the 2023 Kavli-IAU Astrochemistry Symposium: Astrochemistry VIII – From the First Galaxies to the Formation of Habitable worlds, Traverse City, USA <br>
-					Oct 2022: Invited speaker at the Niels Bohr Gold Medal Symposium in Astrochemistry in Copenhagen, Denmark <br>
-					Jul 2022: Invited speaker at “Taming the Uncertainty Monster: Lessons from Astrochemistry?”, an interdisciplinary workshop reuniting astrochemists, astrophysicists and philosophers, Rennes, France <br>
-					Jul 2021: Invited keynote speaker at Astrochemical Frontiers - Quarantine Edition 2 <br>
-					May 202: Invited plenary talk at GAPS 2021 - unsolved problems in red Giants And suPergiantS
-				</p>				
-			</div>
-		</article>
-
-		<!-- Outreach -->
-		<article id="Outreach" class="wrapper style2">
-			<div class="container">
-				<header>
-					<h2>Outreach</h2>
-				</header>
-				<p>
-					I enjoy talking about my research and astrochemistry to a wide range of audiences. 
-					Some online examples include <a href="https://www.youtube.com/watch?v=cbAYXZPP3Jo&ab_channel=PintofScienceBelgium" target="_blank">Pint of Science</a> and a <a href="https://www.facebook.com/156577567699904/videos/1199043520511555" target="_blank">Question of the Week for Technopolis (Dutch)</a>.
-				</p>
-				<p>
-					My passion for public speaking was recognised with the <a href="https://ras.ac.uk/news-and-press/news/2023-caroline-herschel-prize-lectureship-winner-announced" target="_blank">2023 Caroline Herschel Prize Lectureship</a>, awarded to promising women in astronomy. 
-					The lectures at the <a href="https://www.youtube.com/watch?v=3jhoeYk6LCs target="_blank"">University of Bath</a> and at the <a href="https://www.youtube.com/watch?v=KyC_G5bGRh4&t=35s" target="_blank">Royal Astronomical Society</a> are both online.
-				</p>				
-			</div>
-		</article>
-
-		<!-- Contact -->
-			<article id="contact" class="wrapper style4">
-				<div class="container medium">
-					<header>
-						<h2>Contact</h2>
-						<p>You can email me at mvdsande [at] strw.leidenuniv.nl</p>
-					</header>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-				</div>
-			</article>
+			</footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>

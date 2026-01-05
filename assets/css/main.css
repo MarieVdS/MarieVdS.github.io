@@ -2443,3 +2443,116 @@ input, select, textarea {
 					}
 
 	}
+
+
+/* --- CUSTOM MODIFICATIONS --- */
+
+/* 1. Right-justify text outside of bubbles, keep inside bubbles normal */
+
+article p {
+    text-align: left;
+}
+
+article .box p {
+    text-align: left;
+}
+
+
+/* Specifically target the header on the home/about page to align left */
+#about header {
+    text-align: left !important;
+}
+
+/* Ensure the H1 and its immediate sub-text stay left */
+#about h1, 
+#about header p {
+    text-align: left !important;
+}
+
+/* Keep the main bio paragraph text justified/centered as you had it before, 
+   unless you want that left-justified too. If so, add this: */
+#about > .container > .row > div > p {
+    text-align: left !important;
+}
+
+
+/* 2. Increase font size for better readability */
+
+/* Targets the base font for all text elements */
+body, input, textarea, select, p, li {
+    font-size: 14pt !important; 
+    line-height: 1.8em !important;
+    color: #444 !important; /* Makes text darker and easier to read */
+}
+
+/* Adjust headers so they stay larger than the paragraph text */
+h1 { font-size: 3rem !important; }
+h2 { font-size: 2rem !important; }
+h3 { font-size: 1.5rem !important; }
+
+/* Keep the navigation bar text at a reasonable size */
+#nav ul li a {
+    font-size: 12pt !important;
+}
+
+/* 3. Left-align CV table content for better readability */
+/* Left-align CV table content */
+#cv-page table td, 
+#cv-page table th {
+    text-align: left !important;
+    vertical-align: top; /* Ensures dates stay at the top if descriptions are long */
+    padding: 0.5em 1em 0.5em 0; /* Adds spacing between columns */
+}
+
+/* Optional: Make the first column (the years) a fixed width so they line up */
+#cv-page table td:first-child {
+    white-space: nowrap;
+    width: 150px;
+    font-weight: 300;
+}
+
+
+/* Left-align box headers for consistency */
+h3 {
+    text-align: left !important;
+}
+
+/* 4. Adjust button styles for a sleeker look */
+/* Center the button container */
+.button-container {
+    text-align: center !important;
+    margin: 2em 0;
+}
+
+/* Make the buttons smaller */
+.button-container .button {
+    padding: 0.5em 1.5em !important; /* Reduces vertical and horizontal padding */
+    font-size: 0.9em !important;     /* Shrinks the text slightly */
+    height: auto !important;         /* Ensures the height adjusts to the new padding */
+    line-height: 1.5em !important;
+}
+/* 5. Footer email address color adjustment */
+#footer p {
+    color: #ffffff !important; /* Make email address pure white */
+    margin-bottom: 1.5em;
+}
+
+/* Ensure the text block in the bio stays together */
+#home .col-8 {
+    text-align: left !important; /* Forces the container to align left */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home .col-8 header, 
+#home .col-8 p {
+    text-align: justify !important; /* Aligns text to the left within the block */
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Optional: Add a small gap between the header and the bio text */
+#home .col-8 header {
+    margin-bottom: 1em;
+}
