@@ -2537,8 +2537,59 @@ h3 {
 }
 /* 5. Footer email address color adjustment */
 #footer p {
-    color: #ffffff !important; /* Make email address pure white */
-    margin-bottom: 1.5em;
+    color: #eef2ea !important;
+    margin-bottom: 0;
+}
+
+/* Softer site frame */
+#nav {
+    background-color: #6f7f67;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+#nav a {
+    color: #f7f5f1 !important;
+    text-shadow: none;
+}
+
+#nav a:hover,
+#nav a.active {
+    background: rgba(255, 255, 255, 0.14);
+    color: #ffffff !important;
+}
+
+.wrapper.style4 {
+    background-color: #5f6f58;
+    background-image: none;
+    box-shadow: none;
+    color: #eef2ea;
+    padding: 2.4em 0;
+    text-shadow: none;
+}
+
+.wrapper.style4 a {
+    color: #ffffff;
+}
+
+.wrapper.style4 a:hover {
+    color: #e9eee4;
+}
+
+.footer-contact {
+    font-size: 0.95em !important;
+    font-weight: 700;
+    line-height: 1.4em !important;
+}
+
+.footer-credit {
+    color: rgba(238, 242, 234, 0.72) !important;
+    font-size: 0.72em !important;
+    line-height: 1.4em !important;
+    margin-top: 0.75em;
+}
+
+.footer-credit a {
+    color: rgba(255, 255, 255, 0.8);
 }
 
 /* Ensure the text block in the bio stays together */
@@ -2559,4 +2610,420 @@ h3 {
 /* Optional: Add a small gap between the header and the bio text */
 #home .col-8 header {
     margin-bottom: 1em;
+}
+
+@media screen and (max-width: 980px) {
+    #home .image.fit {
+        display: block;
+        margin: 0 auto 2em auto;
+        width: 70vw;
+        max-width: 20em;
+    }
+
+    #home .image.fit img {
+        box-sizing: border-box;
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+/* Home page refresh */
+#home.home-page {
+    background: #f7f5f1;
+    color: #343434;
+}
+
+#home.home-page p {
+    text-align: left !important;
+}
+
+.home-hero,
+.home-feature {
+    padding: 7em 0;
+}
+
+.home-hero {
+    background: #f7f5f1;
+}
+
+.home-feature {
+    background: #ffffff;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.home-intro {
+    max-width: 42em;
+}
+
+.home-kicker {
+    color: #6f7f67 !important;
+    font-size: 0.8em !important;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    line-height: 1.4em !important;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+
+.home-intro h1 {
+    color: #242424;
+    font-size: 3.4rem !important;
+    line-height: 1.05em;
+    margin: 0 0 0.15em 0;
+}
+
+.home-intro h2 {
+    color: #5f5f5f;
+    font-size: 1.55rem !important;
+    font-weight: 400;
+    line-height: 1.35em;
+    margin: 0;
+}
+
+.home-intro header {
+    margin: 0 0 1.5em 0;
+}
+
+.home-intro > p,
+.feature-copy > p:not(.home-kicker) {
+    color: #3f3f3f !important;
+    font-size: 1.05em !important;
+    line-height: 1.7em !important;
+    margin-bottom: 1.35em;
+}
+
+.home-portrait {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 100%;
+    box-shadow: 0 24px 60px rgba(35, 35, 35, 0.12);
+    display: block;
+    max-width: 20em;
+    overflow: hidden;
+}
+
+.home-portrait img {
+    border-radius: 100%;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.home-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65em;
+    list-style: none;
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+
+.home-tags li {
+    background: #e9eee4;
+    border: 1px solid rgba(73, 94, 62, 0.14);
+    border-radius: 999px;
+    color: #3f5338 !important;
+    font-size: 0.86em !important;
+    line-height: 1.2em !important;
+    padding: 0.55em 0.85em;
+}
+
+.home-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8em;
+}
+
+.home-actions .button {
+    background: #2f3b32;
+    border-radius: 6px;
+    box-shadow: none;
+    font-size: 0.9em !important;
+    height: auto;
+    line-height: 1.2em !important;
+    padding: 0.9em 1.25em;
+}
+
+.home-actions .button:hover {
+    background: #435745;
+}
+
+.home-actions .button.alt {
+    background: transparent;
+    border: 1px solid rgba(47, 59, 50, 0.35);
+    color: #2f3b32 !important;
+    text-shadow: none;
+}
+
+.home-actions .button.alt:hover {
+    background: #eef2ea;
+}
+
+.ashes-mark {
+    background: #f7f5f1;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    display: block;
+    max-width: 17em;
+    padding: 1.2em;
+}
+
+.ashes-mark img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.feature-copy {
+    max-width: 44em;
+}
+
+.feature-copy h2 {
+    color: #242424;
+    font-size: 2rem !important;
+    line-height: 1.25em;
+    margin: 0 0 0.75em 0;
+}
+
+@media screen and (max-width: 980px) {
+    .home-hero,
+    .home-feature {
+        padding: 4.5em 0;
+        text-align: center;
+    }
+
+    .home-intro,
+    .feature-copy {
+        margin: 0 auto;
+        max-width: 36em;
+    }
+
+    .home-portrait,
+    .ashes-mark {
+        margin: 0 auto 2em auto;
+    }
+
+    .home-tags,
+    .home-actions {
+        justify-content: center;
+    }
+
+    #home.home-page p,
+    .home-intro h1,
+    .home-intro h2,
+    .feature-copy h2 {
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .home-hero,
+    .home-feature {
+        padding: 3.25em 0;
+    }
+
+    .home-intro h1 {
+        font-size: 2.25rem !important;
+    }
+
+    .home-intro h2,
+    .feature-copy h2 {
+        font-size: 1.35rem !important;
+    }
+
+    .home-portrait {
+        max-width: 14em;
+    }
+
+    .ashes-mark {
+        max-width: 13em;
+    }
+
+    .home-actions .button {
+        width: 100%;
+    }
+}
+
+/* Shared interior pages */
+.interior-page {
+    background: #f7f5f1;
+    color: #343434;
+}
+
+.page-hero {
+    background: #f7f5f1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 6.5em 0 4.5em 0;
+}
+
+.page-hero .container {
+    max-width: 980px;
+}
+
+.page-hero h1 {
+    color: #242424;
+    font-size: 3rem !important;
+    line-height: 1.1em;
+    margin: 0 0 0.45em 0;
+}
+
+.page-hero p:not(.home-kicker) {
+    color: #4b4b4b !important;
+    font-size: 1.1em !important;
+    line-height: 1.7em !important;
+    margin: 0;
+    max-width: 44em;
+    text-align: left !important;
+}
+
+.page-hero-with-media .page-mark {
+    margin-left: auto;
+}
+
+.page-content {
+    background: #ffffff;
+    padding: 4.5em 0;
+}
+
+.page-content .container {
+    max-width: 980px;
+}
+
+.content-section {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    margin: 0 0 3em 0;
+    padding: 0 0 3em 0;
+}
+
+.content-section:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.content-section h2,
+.content-section h3 {
+    color: #242424;
+    font-size: 1.65rem !important;
+    line-height: 1.25em;
+    margin: 0 0 1em 0;
+    text-align: left !important;
+}
+
+.content-section p,
+.content-section li,
+.interior-page td,
+.interior-page th {
+    color: #3f3f3f !important;
+    font-size: 1em !important;
+    line-height: 1.75em !important;
+}
+
+.content-section p {
+    margin: 0 0 1.25em 0;
+    max-width: 46em;
+    text-align: left !important;
+}
+
+.content-section p:last-child {
+    margin-bottom: 0;
+}
+
+.interior-page a {
+    color: #3f5338;
+}
+
+.interior-page a:hover {
+    color: #6f7f67;
+}
+
+.interior-page .table-wrapper {
+    margin: 0;
+}
+
+.interior-page table {
+    background: #fbfaf7;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.interior-page table tbody tr {
+    border-color: rgba(0, 0, 0, 0.08);
+}
+
+.interior-page table td:first-child {
+    color: #6f7f67 !important;
+    font-weight: 700;
+}
+
+.interior-page .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8em;
+    margin: 1.5em 0 0 0;
+    text-align: left !important;
+}
+
+.interior-page .button-container .button {
+    background: #2f3b32;
+    border-radius: 6px;
+    box-shadow: none;
+    font-size: 0.85em !important;
+    height: auto !important;
+    line-height: 1.2em !important;
+    padding: 0.9em 1.2em !important;
+}
+
+.interior-page .button-container .button:hover {
+    background: #435745;
+}
+
+@media screen and (max-width: 980px) {
+    .page-hero {
+        padding: 5em 0 3.5em 0;
+        text-align: center;
+    }
+
+    .page-hero p:not(.home-kicker) {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center !important;
+    }
+
+    .page-hero-with-media .page-mark {
+        margin: 2em auto 0 auto;
+    }
+
+    .page-content {
+        padding: 3.5em 0;
+    }
+
+    .interior-page .button-container {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .page-hero {
+        padding: 3.75em 0 2.75em 0;
+    }
+
+    .page-hero h1 {
+        font-size: 2.1rem !important;
+    }
+
+    .page-content {
+        padding: 2.75em 0;
+    }
+
+    .content-section {
+        margin-bottom: 2.25em;
+        padding-bottom: 2.25em;
+    }
+
+    .interior-page .button-container .button {
+        width: 100%;
+    }
 }
