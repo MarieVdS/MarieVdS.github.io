@@ -2902,6 +2902,10 @@ h3 {
     padding-bottom: 0;
 }
 
+#ashes-page .page-content .row + .row {
+    margin-top: 4em;
+}
+
 .content-section h2,
 .content-section h3 {
     color: #242424;
