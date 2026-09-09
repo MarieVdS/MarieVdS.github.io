@@ -3032,9 +3032,64 @@ h3 {
     }
 }
 
+/* Restore side gutters on interior pages: the max-width override above
+   cancels the base container's calc(100% - 50px), so on narrow screens
+   the text ran edge to edge. */
+@media screen and (max-width: 980px) {
+    .page-hero .container,
+    .page-content .container {
+        max-width: calc(100% - 40px);
+    }
+
+    /* On full-width containers the grid's -25px row margin has no outer
+       margin to hide behind, so it pushed content off the left edge and
+       forced the page wider than the screen. Neutralise it for these
+       single-column / stacked layouts. */
+    .home-hero .container > .row,
+    .home-feature .container > .row,
+    .page-hero .container > .row,
+    .page-content .container > .row {
+        margin-left: 0;
+    }
+
+    .home-hero .container > .row > *,
+    .home-feature .container > .row > *,
+    .page-hero .container > .row > *,
+    .page-content .container > .row > * {
+        padding-left: 0;
+    }
+}
+
+/* Phone tweaks: keep the nav on one readable row and guard against any
+   remaining horizontal overflow. */
+@media screen and (max-width: 736px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    #nav ul {
+        white-space: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        text-align: left;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    #nav ul::-webkit-scrollbar {
+        display: none;
+    }
+
+    #nav ul li a {
+        font-size: 10.5pt !important;
+        padding: 0 0.45em;
+    }
+}
+
 @media screen and (max-width: 736px) {
     .page-hero {
-        padding: 3.75em 0 2.75em 0;
+        padding: 3.5em 0 1.75em 0;
     }
 
     .page-hero h1 {
@@ -3042,7 +3097,7 @@ h3 {
     }
 
     .page-content {
-        padding: 2.75em 0;
+        padding: 1.75em 0;
     }
 
     .content-section {
@@ -3052,5 +3107,11 @@ h3 {
 
     .interior-page .button-container .button {
         width: 100%;
+    }
+
+    /* The fixed 150px date column leaves the description a thin ribbon on
+       a phone; let both columns size to their content instead. */
+    #cv-page table td:first-child {
+        width: auto;
     }
 }
